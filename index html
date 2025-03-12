@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Simple Online Code Editor</h2>
+    <textarea id="code" placeholder="Write your JavaScript here..."></textarea>
+    <button onclick="runCode()">Run</button>
+    <pre id="output"></pre>
+    <script src="script.js"></script>
+</body>
+</html>
